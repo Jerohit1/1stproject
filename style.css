@@ -3,19 +3,7 @@
     font-family: Arial;
     border: border-box;
 }
-/* tablets*/
-@media (max-width: 1024px) {
-    .box {
-        width: 45%;
-    }
-}
-/*mobiles*/
-@media (max-width: 768px) {
-    .box {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
+
 
 /* navbar section*/
 
@@ -257,10 +245,24 @@ ul a {
 }
 .pages {
     padding-top: 25px;
+    
     font-size: .7rem;
 }
 .copyright {
     padding-top: 5px;
     font-size: .7rem;
 
+}
+/* tablets*/
+@media (max-width: 1024px) {
+    .box {
+        width: 45%;
+    }
+}
+/*mobiles*/
+@media (max-width: 768px) {
+    .box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
