@@ -260,9 +260,10 @@ ul a {
     }
 }
 /*mobiles*/
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .box {
         width: 100%;
         margin-bottom: 20px;
     }
 }
+
