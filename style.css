@@ -3,8 +3,6 @@
     font-family: Arial;
     border: border-box;
 }
-
-
 /* navbar section*/
 
 .navbar{
@@ -14,7 +12,6 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 .nav-logo{
     height: 50px;
@@ -124,8 +121,6 @@ span{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-
-    
 }
 .hero-msg {
     background-color: white;
@@ -253,17 +248,27 @@ ul a {
     font-size: .7rem;
 
 }
-/* tablets*/
-@media (max-width: 1024px) {
+/* mobiles*/
+
+@media (max-width:480px){
+    body {
+        font-size: 14px;
+    };
+    header {
+        font-size: 14px;
+        padding: 10px;
+    }
+    footer {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .hero-section {
+        height: 150px;
+
+    }
     .box {
-        width: 45%;
+        padding: 10px;
     }
 }
-/*mobiles*/
-@media (max-width: 480px) {
-    .box {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
+
 
