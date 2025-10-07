@@ -1,2 +1,3 @@
 Its my 1st project.
-based on html and css.
+Based on html and css.
+Auther Rohit Lamba

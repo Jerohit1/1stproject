@@ -3,6 +3,7 @@
     font-family: Arial;
     border: border-box;
 }
+
 /* navbar section*/
 
 .navbar{
@@ -252,6 +253,7 @@ ul a {
 
 @media (max-width:480px){
     body {
+        height: 100vh;
         font-size: 14px;
     };
     header {
